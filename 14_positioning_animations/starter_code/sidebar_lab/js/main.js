@@ -1,0 +1,1 @@
+// Use jQuery to activate the sidebar

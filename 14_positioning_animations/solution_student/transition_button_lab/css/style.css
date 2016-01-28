@@ -1,0 +1,17 @@
+/*------------------------------------------
+  SETUP                   
+/------------------------------------------*/
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+button {
+  border: 1px solid transparent;
+  outline: none;
+  background-color: #F78FA7;
+  padding: 20px;
+  border-radius: 4px;
+}
