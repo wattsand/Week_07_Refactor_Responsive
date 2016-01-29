@@ -1,0 +1,101 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #555;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 2em;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  margin: 2.5em 0 1em;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: block;
+}
+
+.line {
+  border-bottom: 4px solid #bbb;
+  width: 35px;
+  margin-bottom: 6px;
+}
+
+.line:last-child {
+  margin-bottom: 0;
+}
+
+nav {
+  width: 300px;
+  height: 100%;
+  background-color: #48a770;
+  padding: 20px 0;
+}
+
+nav h2 {
+  padding: 1.5rem 1rem 0;
+}
+
+li {
+  padding: 1rem;
+  border-top: 1px solid rgba(0,0,0,0.2);
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+nav li:first-child {
+  margin-top: 2em;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-transform: none;
+  font-size: 20px;
+}
+
+.content-inner {
+  max-width: 69em;
+  margin: 0 auto;
+}
+
+/* Do your thing!
+
+  Use:
+  1: Advanced CSS positioning to keep the sidebar sticking to the top-left part of the screen
+  2: A CSS transform translate to move the sidebar off the left side of the screen
+  3: The transition property to make the sidebar slide in smoothly when activated
+*/
+.sidebar {
+
+}
